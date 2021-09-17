@@ -1,0 +1,63 @@
+.flexbox{
+  display:flex;
+  height: auto;
+  width: 960px;
+  position: relative;
+  color: grey;
+}
+
+.flexbox > button {
+    width:100px;
+    height:50px;
+    position:fixed;
+    left:47.5%;
+    margin: auto;
+    text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  height: 1080px;
+  max-width:100%;
+  position:relative;
+  top:65px;
+  
+  grid-template-columns: repeat(16, 1fr);
+  background-color: #0a0a0a;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.row {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.hovered {
+  background-color: rgb(83, 83, 83);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  transition: all .5s ease;
+}
+
+.cleanse {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  transition: all .5s ease;
+}
+
